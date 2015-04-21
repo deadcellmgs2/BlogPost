@@ -1,0 +1,9 @@
+<h1> _{MsgEditArticle}
+
+<form method=post action=@{BlogPostUpdateR blogPostId} entype=#{encoding}> 
+  ^{widget}
+  <button .btn .btn-info>_{MsgSubmit}
+<a href=@{HomeR} .btn .btn-default> _{MsgCancel}
+
+
+

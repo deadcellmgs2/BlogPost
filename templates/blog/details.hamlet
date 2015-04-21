@@ -1,0 +1,8 @@
+<div .jumbotron>
+  <div .container>
+    <h1> #{blogPostTitle blogPost}
+    <p .navbar-text> 
+         #{blogPostArticle blogPost}
+
+<a href=@{BlogPostUpdateR bpid} .btn .btn-default> _{MsgEdit}
+<a href=@{HomeR} .btn .btn-default>_{MsgIndex}

@@ -1,0 +1,7 @@
+<h1> _{MsgPostNew}
+
+<form method=post action=@{BlogPostNewR} entype=#{encoding}> 
+  ^{widget}
+  <button .btn .btn-info>_{MsgSubmit}
+
+

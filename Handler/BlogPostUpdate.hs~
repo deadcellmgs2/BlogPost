@@ -1,0 +1,9 @@
+module Handler.BlogPostUpdate where
+
+import Import
+
+getBlogPostUpdateR :: BlogPostId -> Handler Html
+getBlogPostUpdateR blogPostId = error "Not yet implemented: getBlogPostUpdateR"
+
+postBlogPostUpdateR :: BlogPostId -> Handler Html
+postBlogPostUpdateR blogPostId = error "Not yet implemented: postBlogPostUpdateR"

@@ -1,0 +1,6 @@
+<h1> Edit new Article 
+
+<form method=post action=@{BlogPostNewR} entype=#{encoding}> 
+  ^{widget}
+  <button .btn .btn-info>Submit
+<a href=@{HomeR} .btn .btn-default> Cancel

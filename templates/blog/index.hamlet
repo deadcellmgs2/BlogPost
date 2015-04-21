@@ -1,0 +1,19 @@
+<h1 >_{MsgMyBlogs}
+<a href=@{BlogPostNewR} .btn .btn-default>_{MsgNew}  
+
+<a href=@{SubSiteR SubHomeR}>subsite
+
+<div> 
+    $maybe id <- mid
+       <a href=@{AuthR LogoutR} .btn .btn-default> _{MsgLogout}
+      
+    $nothing
+       <a href=@{AuthR LoginR} .btn .btn-default> _{MsgLogin}
+<div .jumbotron>
+    <ul>
+       $forall Entity bid article <- articles 
+                 <li>
+                    <a href=@{BlogPostR bid}  >#{blogPostTitle article}
+                    
+                   <button onclick=deleteBlog('@{BlogPostR bid}') .btn .btn-default> _{MsgDel}
+                   <a href=@{BlogPostUpdateR bid} .btn .btn-default> _{MsgEdit}

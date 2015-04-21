@@ -1,0 +1,1 @@
+function deleteBlog(blogUrl){$.ajax({url:blogUrl,type:"DELETE",success:function(html){location.reload()}})}

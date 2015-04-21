@@ -1,0 +1,15 @@
+/static StaticR Static appStatic
+/auth   AuthR   Auth   getAuth
+
+/subsite SubSiteR HelloSub getHelloSub
+/chat ChatR Chat getChat
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/ HomeR GET
+/blog/new BlogPostNewR GET POST
+/blog/details/#BlogPostId BlogPostR GET DELETE 
+/blog/edit/#BlogPostId BlogPostUpdateR GET POST
+
+/json/Blog/new BlogPostNewJsonR PUT GET
