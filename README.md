@@ -1,3 +1,3 @@
 # BlogPost
 
-Example project of several features of Yesod. 
+Example project of several Yesod's features.
